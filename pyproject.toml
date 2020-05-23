@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jerryPycia"
+version = "0.1.2"
+description = ""
+authors = ["Andrew Blance <andrewblance@live.co.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+pandas = "^1.0"
+matplotlib = "^3.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.6.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
