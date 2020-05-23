@@ -5,7 +5,7 @@ Created on Sat May 23 16:55:46 2020
 
 @author: andrewblance
 """
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 
 from . import datasets 
 import pkg_resources
@@ -98,8 +98,9 @@ class Dataset:
         fig, ax = plt.subplots(figsize=(8, 8))
         count.sort_index().plot.bar(color='#f79447')
         
-        plt.text(-2, 34, "How often did Grateful Dead play", fontsize=20, ha="left")
-        plt.text(-2, 32, str(songName)+"?", fontsize=20, ha="left")
+        m = max(count)
+        plt.text(-2, m + 5, "How often did Grateful Dead play", fontsize=20, ha="left")
+        plt.text(-2, m + 3, str(songName)+"?", fontsize=20, ha="left")
         
         plt.yticks(fontsize=13)    
         plt.xticks(fontsize=13) 
