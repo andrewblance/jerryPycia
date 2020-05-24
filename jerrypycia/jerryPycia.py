@@ -73,7 +73,7 @@ class Dataset:
         find index of first and last True in ent (which is list of if a song was played in each gig)
         Then, find info on these gigs
         """
-        first = list(ent).index(True) - 1
+        first = list(ent).index(True) 
         firstShow = Show(self.data.iloc[first])
 
         print("First at " + str(firstShow.Venue) + ', ' +  str(firstShow.City) + ' in ' + str(firstShow.Country) + " on " + str(firstShow.Date)) 
