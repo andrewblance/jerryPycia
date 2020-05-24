@@ -24,7 +24,7 @@ The first of these objects has a few methods to allow you to quickly get some in
 * .nextShow(). This iterates through the data. Every time you run ```print(data.nextShow())``` you will be given the next show.
 * .song_search(). This allows you to investigate how often a particular song was played. If you try ```data.song_search("truckin'", plot=True)``` you should hopefully get the following:
 
-![song_search](images/sS.jpg)
+![song_search](images/sS)
 
 ## The Data
 
