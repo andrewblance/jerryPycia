@@ -2,7 +2,7 @@
 
 ## What a long strange pip its been
 
-jerryPycia is a python library that allows you to explore data related to the large number of live shows they performed. To aid this I have also created a ```.csv``` that documents their shows.
+jerryPycia is a python library that allows you to explore data related to the large number of live shows they performed. To aid this I have also created a ```.csv``` that documents their shows. To read even more about it go [here](https://andrewblance.github.io/post/07-jerrypycia/).
 
 To install:
 
